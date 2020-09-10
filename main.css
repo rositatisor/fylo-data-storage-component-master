@@ -15,6 +15,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         width: 800px;
         margin-top: 200px;
         margin-left: calc((100% - 800px) / 2);
+        background-image: url(images/bg-desktop.png);
+        background-repeat: no-repeat;
+        background-position: center bottom;
     }
         .kaire{
             display: inline-block;
@@ -24,6 +27,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             width: 40%;
             margin-top: 100px;
             margin-bottom: 100px;
+            border: 20px solid #1E2C69;
+            border-radius: 10px 70px 10px 10px;
+            
         }
             .Fylo{
                 display: inline-block;
@@ -32,9 +38,30 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
             .mygtukai{
                 display: inline-block;
-                background-color: red;
+                /* background-color: red; */
                 width: 100%;
             }
+                .document {
+                    background-color: #0C122C;
+                    padding: 8px;
+                    border-radius: 5px;  
+                    height: 30px;
+                    margin-right: 5px;
+                    width: 30px;
+                }
+                .folder {
+                    background-color: #0C122C;
+                    padding: 9px;
+                    border-radius: 5px;
+                    height: 30px;
+                    margin-right: 5px;
+                }
+                .upload {
+                    background-color: #0C122C;
+                    padding: 10px;
+                    border-radius: 5px;
+                    height: 30px;
+                }
         .desine{
             display: inline-block;
             float: right;
