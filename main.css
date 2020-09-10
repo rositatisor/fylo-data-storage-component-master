@@ -19,6 +19,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         .kaire{
             display: inline-block;
             float: left;
+            text-align: center;
             background-color: #1E2C69;
             width: 40%;
             margin-top: 100px;
@@ -52,14 +53,17 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             }
             .zerogb {
                 display: inline-block;
-                weight: 50%;
                 float: left;
                 background-color: white;
             }
             .fullgb {
                 display: inline-block;
                 float: right;
-                weight: 50%;
                 background-color: chartreuse;
             }
+
+.attribution{
+    text-align: center;
+    margin-top: 20px;
+}
 
