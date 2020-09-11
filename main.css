@@ -4,7 +4,7 @@ margin: 0;
 padding: 0;
 vertical-align: top;
 box-sizing: border-box;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'Raleway';
 }
 .fonas{
     background-color:grey;
@@ -13,7 +13,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         display: inline-block;
         background-color: #0C122C;
         width: 800px;
-        height: 450px;
+        height: 410px;
         margin-top: 100px;
         margin-left: calc((100% - 800px) / 2);
         background-image: url(images/bg-desktop.png);
@@ -21,14 +21,19 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         background-size: 800px;
         background-position: center bottom;
     }
+    .bottom-line {
+        display: flex;
+        align-items: flex-end;
+    }
         .kaire{
             display: inline-block;
             float: left;
+            align-items: flex-end;
             background-color: #1E2C69;
             width: 30%;
             margin-left: 100px;
-            margin-top: 160px;
-            border: 20px solid #1E2C69;
+            /* margin-top: 160px; */
+            border: 10px solid #1E2C69;
             border-radius: 10px 70px 10px 10px;
         }
             .Fylo{
@@ -38,7 +43,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 padding: 10px;
             }
                 .logo{
-                    height: 34px;
+                    height: 30px;
                 }
             .mygtukai{
                 display: inline-block;
@@ -64,54 +69,33 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 border-radius: 8px;
                 width: 44px;
               }
-
-                 /* .document {
-                    background-color: #0C122C;
-                    padding: 8px;
-                    border-radius: 5px;  
-                    height: 30px;
-                    margin-right: 5px;
-                    width: 30px;
-                }
-                .folder {
-                    background-color: #0C122C;
-                    padding: 9px;
-                    border-radius: 5px;
-                    height: 30px;
-                    margin-right: 5px;
-                }
-                .upload {
-                    background-color: #0C122C;
-                    padding: 10px;
-                    border-radius: 5px;
-                    height: 30px;
-                } */
         .desine{
             display: inline-block;
             float: left;
-            background-color: aqua;
+            align-items: flex-end;
+            background-color: #1E2C69;
             width: 40%;
             margin-left: 25px;
             margin-top: 160px;
-            padding: 20px;
+            border: 20px solid #1E2C69;
+            border-radius: 10px;
+            font-size: 14px;
+            color: white;
         }
             .gb{
                 width: 100%;
-                background-color: blue;
+                margin-bottom: 10px;
             }
             .meter {
-                background-color: violet;
                 width: 100%;
             }
             .zerogb {
                 display: inline-block;
                 float: left;
-                background-color: white;
             }
             .fullgb {
                 display: inline-block;
                 float: right;
-                background-color: chartreuse;
             }
 
 .attribution{
