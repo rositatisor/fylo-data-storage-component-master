@@ -33,7 +33,7 @@ font-size: 14px;
             height: 200px;
             align-items: flex-end;
             background-color: #1E2C69;
-            border: 40px solid #1E2C69;
+            border: 42px solid #1E2C69;
             border-radius: 10px 100px 10px 10px;
             box-shadow: 0 5px 10px rgba(0,0,0,.15);
         }
@@ -53,18 +53,15 @@ font-size: 14px;
                 display: grid;
                 box-sizing: border-box;
                 grid-gap: 15px;
-                grid-template-columns: auto auto auto;
-                width: 48px;
-                height: 48px;
+                grid-template-columns: 48px 48px 48px;
+
               }
               .grid-container > a {
                 display: flex;
+                height: 48px;
                 justify-content: center;
                 align-items: center;
-                float: left;
                 background-color: #0C122C;
-                text-align: center;
-                padding: 10px;
                 border-radius: 8px;
               }
         .desine{
