@@ -7,38 +7,37 @@ box-sizing: border-box;
 font-family: 'Raleway';
 }
 .fonas{
-    background-color:grey;
+    
 }
-    .melynas-fonas{
-        display: inline-block;
-        background-color: #0C122C;
-        width: 800px;
-        height: 410px;
-        margin-top: 100px;
-        margin-left: calc((100% - 800px) / 2);
-        background-image: url(images/bg-desktop.png);
-        background-repeat: no-repeat;
-        background-size: 800px;
-        background-position: center bottom;
+.melynas-fonas{
+    width:1440px;
+    height: 800px;
+    background-color: #0C122C;
+    background-image: url(./images/bg-desktop.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
     }
-    .bottom-line {
+    .content {
         display: flex;
         align-items: flex-end;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
     }
         .kaire{
             display: inline-block;
             float: left;
+            width: 350px;
+            height: 200px;
             align-items: flex-end;
             background-color: #1E2C69;
-            width: 30%;
-            margin-left: 100px;
-            /* margin-top: 160px; */
             border: 10px solid #1E2C69;
             border-radius: 10px 70px 10px 10px;
         }
             .Fylo{
                 display: inline-block;
-                /* background-color: yellow; */
                 width: 100%;
                 padding: 10px;
             }
@@ -47,7 +46,6 @@ font-family: 'Raleway';
                 }
             .mygtukai{
                 display: inline-block;
-                /* background-color: red; */
                 width: 100%;
             }
             .grid-container {
@@ -72,16 +70,22 @@ font-family: 'Raleway';
         .desine{
             display: inline-block;
             float: left;
-            align-items: flex-end;
+            width: 540px;
+            height:158px;
             background-color: #1E2C69;
-            width: 40%;
             margin-left: 25px;
-            margin-top: 160px;
             border: 20px solid #1E2C69;
             border-radius: 10px;
             font-size: 14px;
             color: white;
         }
+            .pop-up {
+                position: absolute;
+                top: 0;
+                right: 0;
+                background-color: #fff;
+                color: black;
+            }
             .gb{
                 width: 100%;
                 margin-bottom: 10px;
@@ -97,9 +101,9 @@ font-family: 'Raleway';
                 display: inline-block;
                 float: right;
             }
-
 .attribution{
+    position: absolute;
     text-align: center;
-    margin-top: 20px;
+    bottom: 20px;
 }
 
