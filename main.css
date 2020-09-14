@@ -23,8 +23,8 @@ font-size: 14px;
         display: flex;
         align-items: flex-end;
         position: absolute;
-        top: 50%;
-        left: 20%;
+        top: 49%;
+        left: 20.5%;
     }
         .kaire{
             display: inline-block;
@@ -40,21 +40,20 @@ font-size: 14px;
             .Fylo{
                 display: inline-block;
                 width: 100%;
-                padding: 10px;
             }
                 .logo{
-                    height: 30px;
+                    height: 40px;
                 }
             .mygtukai{
                 display: inline-block;
                 width: 100%;
+                margin-top: 34px;
             }
             .grid-container {
                 display: grid;
                 box-sizing: border-box;
                 grid-gap: 15px;
                 grid-template-columns: 48px 48px 48px;
-
               }
               .grid-container > a {
                 display: flex;
