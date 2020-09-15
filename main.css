@@ -69,8 +69,8 @@ font-size: 14px;
             width: 540px;
             height:158px;
             background-color: #1E2C69;
-            margin-left: 25px;
-            border: 20px solid #1E2C69;
+            margin-left: 30px;
+            border: 41px solid #1E2C69;
             border-radius: 10px;
             box-shadow: 0 5px 10px rgba(0,0,0,.15);
             color: white;
@@ -78,17 +78,70 @@ font-size: 14px;
             .pop-up {
                 position: absolute;
                 top: 0;
-                right: 0;
+                right: 40px;
                 background-color: #fff;
                 color: black;
+                height: 72px;
+                width: 179px;
+                border-radius: 10px 10px 0px 10px;
             }
+            .pop-up:after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                right: 0%;
+                border: 22px solid transparent;
+                border-top-color: white;
+                border-bottom: 0;
+                border-right: 0;
+                margin-bottom: -22px;
+            }
+                .left-number {
+                    display: inline-block;
+                    font-size: 35px;
+                    font-weight: 700;
+                    width: 50%;
+                    padding-left: 25px;
+                    padding-top: 20px;
+                }
+                .left-gb {
+                    display: inline-block;
+                    position: absolute;
+                    justify-content: center;
+                    align-items: center;
+                    color: grey;
+                    width: 42%;
+                    font-weight: 700;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
             .gb{
                 width: 100%;
-                margin-bottom: 10px;
+                margin-bottom: 18px;
             }
-            .meter {
-                width: 100%;
-            }
+                .meter {
+                    width: 100%;
+                    margin-bottom: 7px;
+                    background-color: #151D4B;
+                    border-radius: 10px;
+                    padding: 3px;
+                }
+                    .progress {
+                        background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+                        width: 81.5%;
+                        border-radius: 8px;
+                        height: 14px;
+                        position: relative;
+                    }
+                        .circle {
+                            width: 10px;
+                            height: 10px;
+                            border-radius: 6px;
+                            bottom: 2px;
+                            background-color: white;
+                            position: absolute;
+                            right: 2px;
+                        }
             .zerogb {
                 display: inline-block;
                 float: left;
