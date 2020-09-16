@@ -22,9 +22,8 @@ font-size: 14px;
     .content {
         display: flex;
         align-items: flex-end;
-        position: absolute;
-        top: 49%;
-        left: 20.5%;
+        padding-left: 259px;
+        padding-top: 289px;
     }
         .kaire{
             display: inline-block;
@@ -74,11 +73,12 @@ font-size: 14px;
             border-radius: 10px;
             box-shadow: 0 5px 10px rgba(0,0,0,.15);
             color: white;
+            position: relative;
         }
             .pop-up {
                 position: absolute;
-                top: 0;
-                right: 40px;
+                bottom: 80px;
+                right: 0px;
                 background-color: #fff;
                 color: black;
                 height: 72px;
