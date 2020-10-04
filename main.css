@@ -7,23 +7,42 @@ box-sizing: border-box;
 font-family: 'Raleway';
 font-size: 14px;
 }
-.fonas{
-    
+
+body{
+    background-color: #0C122C;
+    width: 1440px;
+    position: relative;
+}
+.bg-design {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    object-position: center;
+    object-fit: cover;
 }
 .melynas-fonas{
-    width:1440px;
+    /* width: 100%; */
     height: 800px;
-    background-color: #0C122C;
-    background-image: url(./images/bg-desktop.png);
+    /* background-color: #0C122C; */
+    /* background-image: url(./images/bg-desktop.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: bottom; */
     }
     .content {
         display: flex;
         align-items: flex-end;
-        padding-left: 259px;
+        /* top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%); */
+        padding-left: 260px;
+        padding-right: 260px;
         padding-top: 289px;
+
     }
         .kaire{
             display: inline-block;
@@ -155,4 +174,67 @@ font-size: 14px;
     bottom: 20px;
     width: 100%;
 }
+/* margin-left: calc((100% - 600px) / 2); */
 
+@media (max-width:1440px) {
+    .bg-design {
+        position: absolute;
+        width: calc(100%);
+    }
+
+@media (max-width:1200px) {
+    .melynas-fonas{
+
+    }
+    .content {
+        display: inline-block;
+    }
+        .kaire{
+        margin-bottom: 16px;
+        width: 100%;
+    }
+    .desine{
+        width: 100%;
+        margin-left: 0;
+    }
+    .pop-up {
+        position: absolute;
+        bottom: -80px;
+        right: 200px;
+        background-color: #fff;
+        color: black;
+        height: 72px;
+        width: 179px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .pop-up:after {
+        content: none;
+}
+@media (max-width:375px) {
+    .melynas-fonas{
+        width: 375px;
+        height: 667px;
+        background-image: url(./images/bg-mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+    .content {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 127px;
+    }
+    .kaire{
+        height: 200px;  
+        width: 325px;
+    }
+    .desine{
+        width: 325px;
+        height: 160px;
+    }
+    .pop-up {
+        position: absolute;
+        bottom: -80px;
+        right: 40px;
+    }
+}
